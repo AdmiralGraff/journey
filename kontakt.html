@@ -45,7 +45,7 @@
           </div>
           <div class="sideitem">
             <div class="back"><h3>Státy</h3></div>
-              <div class="text"> Stat1 <br>Stat2<br>Stat3 </div>
+              <div class="text"> ČR <br>Slovensko<br>Maďarsko<br>Rumunsko<br>Moldavsko<br>Ukrajina</div>
           </div>
           <div class="sideitem">
             <div class="back"><h3>Naplánovaný termín</h3></div>
@@ -54,7 +54,7 @@
           <div class="sideitem">
             <div class="back"><h3>Kontakt</h3></div>
               <div class="text">
-              patrik.vagner9@gmail.com<br>
+              <a href="kontakt.html" target="_self">patrik.vagner9@gmail.com</a><br>
               <a href="https://www.facebook.com/patrik.vagner3">Matúš Vágner</a><br>
               +420 728 162 876<br>
               </div>
@@ -63,11 +63,40 @@
 
         <div id="mainbar">
           <div class="main"><img src="img/logokontakt.jpg" alt="kontakt" title="logokontakt"></div>
-          <h2>Kontaktní údaje</h2>
             <div class="cotext">
-            kontakntí údaje na....
-            </div>
-        </div>
+              <div class="container">
+  <div style="text-align:center">
+    <h2>Kontakt</h2>
+    <p>V případě jakýchkoliv dotazů:</p>
+  </div>
+    <div class="row">
+    <div class="column">
+
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="jmeno">Jméno</label>
+        <input type="text" id="jmeno" name="jmeno" placeholder="Vaše jmnéno...">
+        <label for="lname">Vaše příjmení</label>
+        <input type="text" id="prijmeni" name="prijmeni" placeholder="Vaše příjmení...">
+        <label for="stat">Stát</label>
+        <select id="stat" name="stat">
+          <option value="czech">Česká republika</option>
+          <option value="slovakia">Slovenská republika</option>
+          <option value="hungary">Maďarsko</option>
+          <option value="poland">Polsko</option>
+          <option value="romania">Rumunsko</option>
+          <option value="rakous">Rakousko</option>
+          <option value="other">Jiné</option>
+        </select>
+        <label for="text">Zpráva</label>
+        <textarea id="zprava" name="zprava" placeholder="Text vaši zprávy..." style="height:170px"></textarea>
+        <input type="submit" value="Odeslat">
+      </form>
+    </div>
+  </div>
+</div>
+
 
           <div class="coleft">
             <h4>Alternativy kontaktu</h4>

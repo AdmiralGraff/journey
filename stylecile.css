@@ -207,14 +207,14 @@ color: #FFF;
 .coleft{
 line-height: 20px;
 float:left;
-width:300px;
+width:400px;
 font-size:90%;
 color:#FFF}
 
 .coright{
 line-height: 20px;
 float:right;
-width:300px;
+width:200px;
 font-size:90%;
 color:#FFF;
 }
@@ -222,7 +222,7 @@ color:#FFF;
 .cotexts{
 margin-top: 10px;
 float:left;
-width:300px;
+width:400px;
 margin-bottom: 20px;
 }
 
@@ -281,7 +281,6 @@ input[type=submit] {
 }
 
 .container {
-  background-color: #
   border-radius: 5px;
   padding: 10px;
 }
